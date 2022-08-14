@@ -1,0 +1,99 @@
+
+body{
+background-color:hsl(212, 45%, 89%);
+}
+
+
+
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    width:19.7%;
+    padding: 1.2%;
+    border-radius: 25px;
+   margin-top: 7%;
+}
+@media only screen and (max-width: 416px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        width:79%;
+        padding: 4.9%;
+        border-radius: 25px;
+       margin-top: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 425px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        width:69%;
+        padding: 4.2%;
+        border-radius: 25px;
+       margin-top: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        width:39%;
+        padding: 2.7%;
+        border-radius: 25px;
+       margin-top: 7%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        width:29%;
+        padding: 1.9%;
+        border-radius: 25px;
+       margin-top: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        width:19.7%;
+        padding: 1.2%;
+        border-radius: 25px;
+       margin-top: 7%;
+    }
+  }
+
+
+.card h2{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+@media only screen and (max-width: 375px) {
+    .card h2{
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        font-weight: 700;
+    }
+  }
+
+
+.card p{
+    font-family: 'Outfit', sans-serif;
+font-size: 15px;
+text-align: center;
+color:hsl(220, 15%, 55%);
+font-weight: 400;
+padding: 0 15px;
+}
+
+.card img{
+    width:100%;
+    border-radius: 10px;
+}
+
